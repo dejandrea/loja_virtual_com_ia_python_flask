@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Variaveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Flask
+instance/
+.flaskenv
+
+# Bancos de dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Testes, cobertura e ferramentas
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Empacotamento Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Modelos gerados localmente
+modelos/*.pkl
+modelos/*.joblib
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Supabase local
+supabase/.temp/
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
